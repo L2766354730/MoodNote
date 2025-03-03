@@ -1,0 +1,17 @@
+<view class="top">
+  <image class="backimg" src="/images/返回箭头.png" bindtap="back"></image>
+  <text class="back" bindtap="back">返回</text>
+  <text class="feedback">反馈</text>
+</view>
+<form bindsubmit="submit">
+  <view class="write">
+    <textarea class="input" minlength="{{min}}" maxlength="{{max}}" name="feedback" bindinput="input" wx:if="{{context}}" value="{{context}}" auto-focus="true"></textarea>
+      <textarea class="input" placeholder='向我们提交反馈，我们服务你！' minlength="{{min}}" maxlength="{{max}}" name="feedback"
+      bindinput="input" wx:else auto-focus="true" wrap="physical"></textarea>
+  </view>
+  <view class="tip">
+    <view class="hint">{{texts}}</view>
+    <view class="wordsize">{{currentWordNumber|0}}/{{max}}</view>
+  </view>
+  <button form-type="submit" type="primary" class="submit">提交</button>
+</form>

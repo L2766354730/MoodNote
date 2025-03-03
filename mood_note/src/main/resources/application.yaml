@@ -1,0 +1,17 @@
+mybatis:
+  type-aliases-package: st.nuc.edu.cn.mood_note.entity
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mood_note?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+
+server:
+  port:8080

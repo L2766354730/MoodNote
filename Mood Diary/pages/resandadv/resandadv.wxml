@@ -1,0 +1,23 @@
+<view class="top">
+  <image class="backimg" src="/images/返回箭头.png" bindtap="back"></image>
+  <text class="back" bindtap="back">返回</text>
+  <text class="email">{{title}}</text>
+</view>
+<view wx:if="{{isHave}}">
+  <view class="tab" wx:for="{{emailList}}" bindtap="context" data-eid="{{item.eid}}" data-date="{{item.date}}">
+    <view class="img">
+      <image src="/images/邮件已读.png" class="emailimg" wx:if="{{item.isRead=='true'}}"></image>
+      <image src="/images/邮件.png" class="emailimg" wx:else></image>
+    </view>
+    <view class="detail">
+      <view class="date">{{item.date}}</view>
+      <view class="context">{{item.context}}</view>
+    </view>
+  </view>
+</view>
+<view wx:else>
+  <view class="tab1">
+    <image src="/images/铃铛.png" class="bell"></image>
+    <view class="empty">还没有人给你发邮件哦！</view>
+  </view>
+</view>

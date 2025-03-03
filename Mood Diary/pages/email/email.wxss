@@ -1,0 +1,85 @@
+.top{
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.backimg{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.back{
+  /* background-color: slategrey; */
+  padding-top: 10rpx;
+}
+
+.email{
+  font-size: 40rpx;
+  padding-top: 5rpx;
+  padding-left: 180rpx;
+}
+
+
+.tab{
+  width: 687rpx;
+  height: 102rpx;
+  margin-top: 62rpx;
+  margin-left: 34rpx;
+  display: flex;
+  flex-direction: row;
+  outline: auto;
+  outline-color: rgb(187, 187, 187, 100);
+}
+
+.title{
+  margin-top: 30rpx;
+  margin-left: 25rpx;
+}
+
+
+.img{
+  width: 80rpx;
+  margin-left: 1rpx;
+  /* background-color: aquamarine; */
+}
+
+.hovertag{
+  background-color: rgb(221, 219, 219);
+}
+
+.emailimg{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 28rpx;
+  margin-left: 30rpx;
+}
+
+.bell{
+  width: 46rpx;
+  height: 46rpx;
+  margin-top: 27rpx;
+  margin-left: 160rpx;
+}
+
+.empty{
+  margin-top: 29rpx;
+  margin-left: 10rpx;
+}
+
+.tab1{
+  width: 687rpx;
+  height: 102rpx;
+  margin-top: 500rpx;
+  margin-left: 34rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.enter{
+  margin-left: auto;
+  margin-right: 30rpx;
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 28rpx;
+}

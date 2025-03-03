@@ -1,0 +1,10 @@
+<view class="top">
+  <image class="backimg" src="/images/返回箭头.png" bindtap="back"></image>
+  <view class="back" bindtap="back">返回</view>
+  <view class="window">官方通知</view>
+</view>
+<view class="date-number">
+  <view class="date">{{date}}</view>
+  <view class="number">{{currentWordNumber}}字</view>
+</view>
+<view class="frame"><text class="content">{{context}}</text></view>

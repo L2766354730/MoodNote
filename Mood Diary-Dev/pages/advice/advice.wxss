@@ -1,0 +1,78 @@
+.top{
+  margin-top: 44rpx;
+  margin-left: 29rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.add{
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 10rpx;
+  margin-left: 200rpx;
+}
+
+.window{
+  font-size: 40rpx;
+  margin-top: 5rpx;
+  margin-left: 240rpx;
+}
+
+.advice{
+  width: 687rpx;
+  height: 102rpx;
+  margin-top: 62rpx;
+  margin-left: 34rpx;
+  display: flex;
+  flex-direction: row;
+  outline: auto;
+  outline-color: rgb(187, 187, 187, 100);
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+}
+
+.date{
+  font-size: 25rpx;
+  color: rgb(139, 140, 141);
+  margin-top: 10rpx;
+  margin-left: 25rpx;
+}
+
+.content{
+  font-size: 32rpx;
+  margin-top: 10rpx;
+  margin-left: 25rpx;
+}
+
+.empty{
+  margin-top: 29rpx;
+  margin-left: 200rpx;
+}
+
+.tab1{
+  width: 687rpx;
+  height: 102rpx;
+  margin-top: 400rpx;
+}
+
+
+.button{
+  margin-top: 50rpx;
+}
+
+.passwordview{
+  margin-top: 510rpx;
+  margin-left: 190rpx;
+  margin-right: 190rpx;
+  display: flex;
+  flex-direction: row;
+  outline: auto;
+  outline-color: gray;
+}
+
+.password{
+  width: 250rpx;
+}

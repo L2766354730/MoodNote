@@ -1,0 +1,30 @@
+<view class="background">
+  <text class="me">我的</text>
+  <view class="data">
+    <view class="circle">
+    <image src="{{avatarUrl}}" class="avatarUrl"></image>
+    </view>
+    <view class="nick-mood">
+      <text class="nickname">{{nickName}}</text>
+      <text class="mood">{{daymood}}</text>
+    </view>
+  </view>
+</view>
+<view class="setting">
+  <view class="tag1" hover-class="hovertag">
+  <button class="button" open-type="share" plain="true">
+    <text class="word">分享给朋友</text>
+    <image class="img1" src="/images/分享.png"></image>
+  </button></view>
+  <view class="tag" bindtap="feedback" hover-class="hovertag">
+    <text class="word">反馈</text>
+    <image class="img" src="/images/箭头.png"></image>
+  </view>
+  <view class="tag" bindtap="email" hover-class="hovertag">
+    <text class="word">我的信箱</text>
+    <image class="img" src="/images/邮件.png"></image>
+  </view>
+</view>
+<view class="exit">
+  <button bindtap="loginOut">退出登录</button>
+</view>

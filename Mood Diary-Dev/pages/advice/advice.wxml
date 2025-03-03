@@ -1,0 +1,28 @@
+<view class="index" wx:if="{{!userInfo}}">
+  <view class="passwordview">
+    <text class="pwords">密钥：</text>
+    <input class="password" placeholder="请输入密钥" bindinput="password"></input>
+  </view>
+  
+  <button class="button" type="primary" bindtap="login">微信授权登录</button>
+</view>
+
+<view wx:else>
+  <view class="top">
+    <view class="window">官方通知</view>
+    <image class="add" src="/images/添加.png" bindtap="add"></image>
+  </view>
+  <view wx:if="{{isHave}}">
+    <view class="advice" wx:for="{{adviceList}}" bindtap="see" data-aid="{{item.aid}}" data-date="{{item.date}}">
+      <view class="detail">
+        <view class="date">{{item.date}}</view>
+        <view class="content">{{item.content}}</view>
+      </view>
+    </view>
+  </view>
+  <view wx:else>
+    <view class="tab1">
+      <view class="empty">还没有发布过官方通知哦！</view>
+    </view>
+  </view>
+</view>

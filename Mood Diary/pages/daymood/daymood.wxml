@@ -1,0 +1,16 @@
+<view class="now">
+  <view>选择今日总体心情</view>
+  <image src="/images/心情.png" class="img"></image>
+</view>
+<view class="frame">
+  <image src="/images/开心.png" class="happy" bindtap="mood" data-mood="开心"></image>
+  <image src="/images/害羞.png" class="shy" bindtap="mood" data-mood="害羞"></image>
+  <image src="/images/难过.png" class="sad" bindtap="mood" data-mood="难过"></image>
+  <image src="/images/害怕.png" class="fear" bindtap="mood" data-mood="害怕"></image>
+  <image src="/images/阳光.png" class="shine" bindtap="mood" data-mood="阳光"></image>
+  <image src="/images/生气.png" class="angry" bindtap="mood" data-mood="生气"></image>
+  <image src="/images/嫌弃.png" class="dislike" bindtap="mood" data-mood="嫌弃"></image>
+  <image src="/images/孤独.png" class="lonely" bindtap="mood" data-mood="孤独"></image>
+  <image src="/images/失望.png" class="disappoint" bindtap="mood" data-mood="失望"></image>
+</view>
+<image class="cancel" src="/images/叉号.png" bindtap="cancel"></image>

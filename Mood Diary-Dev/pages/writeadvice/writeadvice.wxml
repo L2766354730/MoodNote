@@ -1,0 +1,17 @@
+<view class="top">
+  <image class="backimg" src="/images/返回箭头.png" bindtap="back"></image>
+  <view class="back" bindtap="back">返回</view>
+  <view class="window">官方通知</view>
+  <image class="sendimg" src="/images/发送.png" bindtap="submit"></image>
+</view>
+<view class="date-number">
+  <view class="date">{{date}}</view>
+  <view class="number">{{currentWordNumber}}字</view>
+</view>
+<view class="frame">
+  <textarea class="input" placeholder='发布一条官方通知' bindinput="input" minlength="{{min}}" maxlength="{{max}}"></textarea>
+</view>
+<view class="tip">
+  <view class="hint">{{texts}}</view>
+  <view class="wordsize">{{currentWordNumber|0}}/{{max}}</view>
+</view>

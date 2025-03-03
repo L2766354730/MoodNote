@@ -1,0 +1,63 @@
+.top{
+  margin-top: 44rpx;
+  margin-left: 29rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.backimg{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.back{
+  padding-top: 10rpx;
+}
+
+.window{
+  font-size: 40rpx;
+  padding-top: 5rpx;
+  padding-left: 175rpx;
+}
+
+.responded{
+  width: 687rpx;
+  height: 102rpx;
+  margin-top: 62rpx;
+  margin-left: 34rpx;
+  display: flex;
+  flex-direction: row;
+  outline: auto;
+  outline-color: rgb(187, 187, 187, 100);
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+}
+
+.date{
+  font-size: 25rpx;
+  color: rgb(139, 140, 141);
+  margin-top: 10rpx;
+  margin-left: 25rpx;
+}
+
+.content{
+  font-size: 32rpx;
+  margin-top: 10rpx;
+  margin-left: 25rpx;
+}
+
+
+.empty{
+  margin-top: 29rpx;
+  margin-left: 200rpx;
+}
+
+.tab1{
+  width: 687rpx;
+  height: 102rpx;
+  margin-top: 400rpx;
+  margin-left: 34rpx;
+}

@@ -1,0 +1,102 @@
+.now{
+  font-size: 36rpx;
+  width: 450rpx;
+  height: 56rpx;
+  margin-top: 106rpx;
+  margin-left: 180rpx;
+  display: flex;
+  flex-direction: row;
+  /* background-color: aqua; */
+}
+
+.img{
+  width: 64rpx;
+  height: 64rpx;
+  margin-left: 30rpx;
+}
+
+.frame{
+width: 656rpx;
+height: 538rpx;
+margin-top: 64rpx;
+margin-left: 47rpx;
+border-radius: 61rpx;
+background-color:#E4D9E6;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  .frame{
+    width: 656rpx;
+    height: 538rpx;
+    margin-top: 64rpx;
+    margin-left: 47rpx;
+    border-radius: 61rpx;
+    background-color:#5d575e;
+  }
+}
+
+
+.cancel{
+width: 91rpx;
+height: 91rpx;
+margin-top: 73rpx;
+margin-left: 338rpx; 
+}
+
+.happy{
+  width: 118rpx;
+  height: 118rpx;
+  margin-top: 29rpx;
+  margin-left: 50rpx;
+}
+
+.shy{
+  width: 118rpx;
+  height: 118rpx;
+  margin-left: 91rpx;
+}
+
+.sad{
+  width: 130rpx;
+  height: 130rpx;
+  margin-left: 91rpx;
+}
+
+.fear{
+  width: 110rpx;
+  height: 110rpx;
+  margin-top: 54rpx;
+  margin-left: 55rpx;
+}
+
+.shine{
+  width: 125rpx;
+  height: 125rpx;
+  margin-left: 95rpx;
+}
+
+.angry{
+  width: 118rpx;
+  height: 118rpx;
+  margin-left: 89rpx;
+}
+
+.dislike{
+  width: 130rpx;
+  height: 130rpx;
+  margin-top: 54rpx;
+  margin-left: 45rpx;
+}
+
+.lonely{
+  width: 118rpx;
+  height: 118rpx;
+  margin-left: 92rpx;
+}
+
+.disappoint{
+  width: 118rpx;
+  height: 118rpx;
+  margin-left: 90rpx;
+}

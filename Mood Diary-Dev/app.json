@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/feedback/feedback",
+    "pages/seerespondation/seerespondation",
+    "pages/seeadvice/seeadvice",
+    "pages/logout/logout",
+    "pages/writeadvice/writeadvice",
+    "pages/responded/responded",
+    "pages/writefeedback/writefeedback",
+    "pages/advice/advice"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#Fc0",
+    "selectedColor": "#f4c903",
+    "borderStyle": "white",
+    "list": [{
+        "selectedIconPath": "images/点击用户反馈.png",
+        "iconPath": "images/用户反馈.png",
+        "pagePath": "pages/feedback/feedback",
+        "text": "用户反馈"
+      },
+      {
+        "selectedIconPath": "images/点击通知.png",
+        "iconPath": "images/通知.png",
+        "pagePath": "pages/advice/advice",
+        "text": "官方通知"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

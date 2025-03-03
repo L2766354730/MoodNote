@@ -1,0 +1,62 @@
+.top{
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.backimg{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.back{
+  padding-top: 10rpx;
+}
+
+.feedback{
+  font-size: 40rpx;
+  padding-top: 5rpx;
+  padding-left: 180rpx;
+}
+
+.write{
+  width: 707rpx;
+  height: 796rpx;
+  margin-top: 30rpx;
+  margin-left: 15rpx;
+  outline: auto;
+  outline-color: rgb(223, 221, 221);
+}
+
+.input{
+  padding-top: 30rpx;
+  padding-left: 15rpx;
+  width: 707rpx;
+  height: 796rpx;
+
+}
+
+.tip{
+  width: 100%;
+  height: 30rpx;
+  display: flex;
+  flex-direction: row;
+  margin-top: 45rpx;
+}
+
+.wordsize{
+  font-size: 25rpx;
+  color: rgb(139, 139, 139);
+  margin-left: 650rpx;
+}
+
+.submit{
+  margin-top: 50rpx;
+}
+
+.hint{
+  font-size: 28rpx;
+  position: absolute;
+  margin-left: 20rpx;
+  color: #FF6600;
+}

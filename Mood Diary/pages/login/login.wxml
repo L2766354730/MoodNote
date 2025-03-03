@@ -1,0 +1,5 @@
+<view class="index" wx:if="{{!userInfo}}">
+  <view class="img">
+  </view>
+  <button class="button" type="primary" bindtap="login">微信授权登录</button>
+</view>

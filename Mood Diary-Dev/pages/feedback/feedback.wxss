@@ -1,0 +1,107 @@
+.head{
+  width: 750rpx;
+  height: 155rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.avatarUrl{
+  width: 98rpx;
+  height: 98rpx;
+  margin-top: 40rpx;
+  margin-left: 29rpx;
+  border-radius: 49rpx;
+  background-color: rgba(185, 193, 201, 0.151);
+}
+
+.avatarUrlimg{
+  width: 98rpx;
+  height: 98rpx;
+  border-radius: 49rpx;
+}
+
+.nickName{
+  font-size: 45rpx;
+  width:400rpx;
+  margin-top: 45rpx;
+  margin-left: 40rpx;
+}
+
+.responded{
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 40rpx;
+  margin-left: 50rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.respondedimg{
+  padding-left: 15rpx;
+  width: 55rpx;
+  height: 55rpx;
+}
+
+.respondedword{
+  font-size: 28rpx;
+  color: rgb(136, 135, 135);
+}
+
+.feedback{
+  width: 687rpx;
+  height: 102rpx;
+  margin-top: 62rpx;
+  margin-left: 34rpx;
+  display: flex;
+  flex-direction: row;
+  outline: auto;
+  outline-color: rgb(187, 187, 187, 100);
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+}
+
+.date{
+  font-size: 25rpx;
+  color: rgb(139, 140, 141);
+  margin-top: 10rpx;
+  margin-left: 25rpx;
+}
+
+.content{
+  font-size: 32rpx;
+  margin-top: 10rpx;
+  margin-left: 25rpx;
+}
+
+.empty{
+  margin-top: 29rpx;
+  margin-left: 200rpx;
+}
+
+.tab1{
+  width: 687rpx;
+  height: 102rpx;
+  margin-top: 400rpx;
+  margin-left: 34rpx;
+}
+
+.button{
+  margin-top: 50rpx;
+}
+
+.passwordview{
+  margin-top: 510rpx;
+  margin-left: 190rpx;
+  margin-right: 190rpx;
+  display: flex;
+  flex-direction: row;
+  outline: auto;
+  outline-color: gray;
+}
+
+.password{
+  width: 250rpx;
+}

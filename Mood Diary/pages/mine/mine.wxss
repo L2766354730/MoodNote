@@ -1,0 +1,126 @@
+.background{
+  width: 684rpx;
+  height: 443rpx;
+  background-color:rgb(189, 187, 189);
+  margin: auto ;
+  margin-top: 38rpx;
+}
+
+.me{
+  font-size: 36rpx;
+  display: flex;
+  justify-content: center;
+  padding-top: 40rpx;
+}
+
+.tag{
+  width: 686rpx;
+  height: 72rpx;
+  margin: auto;
+  margin-top: 49rpx;
+  padding-top: 30rpx;
+  padding-left: 10rpx;
+  outline: auto;
+  outline-color: rgb(196, 191, 191);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tag1{
+  width: 686rpx;
+  height: 100rpx;
+  margin: auto;
+  margin-top: 49rpx;
+  padding-left: 10rpx;
+  outline: auto;
+  outline-color: rgb(196, 191, 191);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button[plain]{
+  border: 0;
+  width: 750rpx;
+  height: 100rpx;
+  padding-left: 0rpx;
+  padding-top: 30rpx;
+  padding-right: 0rpx;
+  font-weight: 400;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hovertag{
+  background-color: rgb(221, 219, 219);
+}
+
+.word{
+  margin-left: 20rpx;
+}
+
+/* 暗黑模式下应用的样式 */
+@media (prefers-color-scheme: dark) {
+  .word{
+    margin-left: 20rpx;
+    color: aliceblue;
+  }
+}
+
+.img{
+  width: 46rpx;
+  height: 46rpx;
+  padding-right: 30rpx;
+  
+}
+
+.img1{
+  width: 50rpx;
+  height: 50rpx;
+  padding-right: 30rpx;
+}
+
+.data{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.circle{
+  margin-top: 170rpx;
+  margin-left: 45rpx;
+  border-radius: 70rpx;
+  width: 140rpx;
+  height: 140rpx;
+  background-color: white;
+}
+
+.avatarUrl{
+  border-radius: 70rpx;
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.nick-mood{
+  margin-top: 170rpx;
+  margin-left: 45rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.nickname{
+  margin-top: 15rpx;
+}
+
+.mood{
+  margin-top: 30rpx;
+  color: rgb(98, 102, 107);
+}
+
+.exit{
+  margin-top: 100rpx;
+}

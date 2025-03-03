@@ -1,0 +1,13 @@
+<view class="top">
+  <image class="backimg" src="/images/返回箭头.png" bindtap="back"></image>
+  <text class="back" bindtap="back">返回</text>
+  <text class="email">我的信箱</text>
+</view>
+<view class="tab" bindtap="advice" hover-class="hovertag">
+  <view class="title">官方通知</view>
+  <image src="/images/箭头.png" class="enter"></image>
+</view>
+<view class="tab" bindtap="feedbackRespond" hover-class="hovertag">
+  <view class="title">反馈回执</view>
+  <image src="/images/箭头.png" class="enter"></image>
+</view>

@@ -1,0 +1,18 @@
+<view class="top">
+  <image class="backimg" src="/images/返回箭头.png" bindtap="back"></image>
+  <view class="back" bindtap="back">返回</view>
+  <view class="window">已回复</view>
+</view>
+<view wx:if="{{isHave}}">
+  <view class="responded" wx:for="{{respondedList}}" bindtap="see" data-fid="{{item.fid}}" data-date="{{item.date}}">
+    <view class="detail">
+      <view class="date">{{item.date}}</view>
+      <view class="content">{{item.content}}</view>
+    </view>
+  </view>
+</view>
+<view wx:else>
+  <view class="tab1">
+    <view class="empty">尚没有已回复反馈</view>
+  </view>
+</view>

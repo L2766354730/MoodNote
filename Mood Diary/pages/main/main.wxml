@@ -1,0 +1,76 @@
+<view class="data">
+  <view class="circle" bindtap="mine">
+    <image src="{{avatarUrl}}" class="head"></image>
+  </view>
+  <view class="date-mood">
+    <text class="date">{{date}}</text>
+    <text class="mood" bindtap="daymood">{{daymood}}</text>
+  </view>
+  <view class="backnow">
+  <image src="/images/今日.png" class="backnowimg"  bindtap="backnow" wx:if="{{nottoday}}"></image>
+</view>
+
+  <image src="/images/添加.png" class="add" bindtap="add"></image>
+</view>
+<view class="calendar">
+  <view class='wrap'>
+    <view>
+      <view class='date-show'>
+        <view class='lt-arrow' bindtap='lastMonth'>
+          <image src='/images/左箭头.png' mode='aspectFit'></image>
+        </view>
+        {{year}}年{{month}}月
+        <view class='rt-arrow' bindtap='nextMonth'>
+          <image src='/images/右箭头.png' mode='aspectFit'></image>
+        </view>
+      </view>
+    </view>
+    <view class='header'>
+      <view wx:for='{{head}}' class='{{(index == todayIndex) && isTodayWeek ? "weekMark" : ""}}'>{{item}}<view></view>
+      </view>
+    </view>
+    <view class='date-box'>
+      <view wx:for='{{dateArr}}'
+        class='{{isToday == item.isToday ? "nowDay" : (pickToday == item.isToday ? "pickDay" : "")}}'
+        data-date='{{item.isToday}}' bindtap="date">
+        <view class="sort">
+          <view class="minimoodview">
+            <image src="{{item.mood}}" class="minimood"></image>
+          </view>
+          <view class='date-head'>
+            <view>{{item.dateNum}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="nonote" wx:if="{{!noteisHave}}">
+  <image src="/images/铃铛.png" class="bell"></image>
+  <view class="empty">{{havenote}}</view>
+</view>
+<view wx:else>
+  <view class="product-list">
+    <view class="product-item" wx:for="{{noteList}}" wx:for-index="index" wx:key="{{item.nid}}">
+      <movable-area data-note="{{item}}" bindtap="changenote">
+        <movable-view out-of-bounds="true" direction="horizontal" x="{{item.xmove}}" inertia="true"
+          data-productIndex="{{index}}" bindtouchstart="handleTouchStart" bindtouchend="handleTouchEnd"
+          bindchange="handleMovableChange">
+          <view class="product-item-wrap">
+            <view class="expression">
+              <image src="{{item.mood}}" class="expressionimg"></image>
+            </view>
+            <view class="product-movable-item">
+              <view class="product-movable-item-name">{{item.time}}</view>
+              <view class="product-movable-item-code">{{item.context}}</view>
+            </view>
+          </view>
+          <view class="blank"></view>
+        </movable-view>
+      </movable-area>
+      <view class="delete-btn" data-nid="{{item.nid}}" bindtap="handleDeleteProduct">
+        <image src="/images/删除.png" class="delete"></image>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<view class="top">
+  <image class="backimg" src="/images/返回箭头.png" bindtap="back"></image>
+  <!-- 心情图标为动态 -->
+  <image class="mood" src="{{mood}}" bindtap="changemood"></image>
+  <image class="click" src="/images/点击.png" bindtap="changemood"></image>
+  <image class="clear" src="/images/清空.png" bindtap="clear"></image>
+  <view class="clearword" bindtap="clear">清空</view>
+  <image class="save" src="/images/保存.png" bindtap="save"></image>
+  <view class="saveword" bindtap="save">保存</view>
+</view>
+<view class="date-number">
+  <view class="date">{{time}}</view>
+  <view class="number">{{currentWordNumber}}字</view>
+</view>
+<view class="frame">
+  <textarea class="input" maxlength="8000" auto-focus="true" placeholder="请输入笔记内容" bindinput="input" value="{{context}}"></textarea>
+</view>

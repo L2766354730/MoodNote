@@ -1,0 +1,102 @@
+.top{
+  margin-top: 44rpx;
+  margin-left: 29rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.backimg{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.mood{
+  margin-left: 15rpx;
+  width: 69rpx;
+  height: 69rpx;
+}
+
+.click{
+  width: 55rpx;
+  height: 55rpx;
+}
+
+.clear{
+  margin-left: 190rpx;
+  width: 55rpx;
+  height: 55rpx;
+}
+
+.clearword{
+  font-size: 38rpx;
+  color: #a58067;
+}
+
+.save{
+  margin-left: 40rpx;
+  width: 55rpx;
+  height: 55rpx;
+}
+
+.saveword{
+  font-size: 38rpx;
+  color: rgb(78, 149, 241);
+}
+
+.date-number{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+  margin-left: 25rpx;
+}
+
+.date{
+  color: rgba(168, 166, 163, 0.61);
+  font-size: 30rpx;
+}
+
+.number{
+  margin-left: 20rpx;
+  color: rgba(168, 166, 163, 0.61);
+  font-size: 30rpx;
+}
+
+.frame{
+  width: 675rpx;
+  height: 1070rpx;
+  margin-top: 15rpx;
+  margin-left: 35rpx;
+  display: flex;
+  flex-direction: column;
+  outline:auto;
+  outline-color: rgb(195, 193, 193);
+  /* background-color: blueviolet; */
+}
+
+.input{
+  margin-top: 30rpx;
+  margin-left: 15rpx;
+  width: 645rpx;
+  height: 1000rpx;
+  /* background-color: blanchedalmond; */
+
+}
+
+.backleft{
+  width: 55rpx;
+  height: 48rpx;
+  margin-left: 280rpx;
+}
+
+.backright{
+  width: 55rpx;
+  height: 48rpx;
+  margin-left: 25rpx;
+}
+
+.fold{
+  width: 41rpx;
+  height: 41rpx;
+  margin-left: 633rpx;
+  /* background-color: brown; */
+}

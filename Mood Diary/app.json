@@ -1,0 +1,28 @@
+{
+  "pages":[
+    
+    "pages/login/login",
+    "pages/nihao/nihao",
+    "pages/mine/mine",
+    "pages/main/main",
+    "pages/email/email",
+    "pages/note/note",
+    "pages/daymood/daymood",
+    "pages/notemood/notemood",
+    "pages/feedback/feedback",
+    "pages/resandadv/resandadv",
+    "pages/seefeedbackRespond/seefeedbackRespond",
+    "pages/seeadvice/seeadvice"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "@navigationBarBackgroundColor",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"@navigationBarTextStyle",
+    "backgroundColor": "@backgroundColor",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "darkmode": true,
+  "themeLocation": "theme.json"
+}

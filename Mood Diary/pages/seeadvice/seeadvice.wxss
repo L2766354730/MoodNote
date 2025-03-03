@@ -1,0 +1,57 @@
+.top{
+  margin-top: 44rpx;
+  margin-left: 29rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.backimg{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.back{
+  padding-top: 10rpx;
+}
+
+.window{
+  font-size: 40rpx;
+  padding-top: 5rpx;
+  padding-left: 150rpx;
+}
+
+.date-number{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40rpx;
+  margin-left: 25rpx;
+}
+
+.date{
+  color: rgba(168, 166, 163, 0.61);
+  font-size: 30rpx;
+}
+
+.number{
+  margin-left: 20rpx;
+  color: rgba(168, 166, 163, 0.61);
+  font-size: 30rpx;
+}
+
+.frame{
+  width: 675rpx;
+  height: auto;
+  margin-top: 15rpx;
+  margin-left: 35rpx;
+  display: flex;
+  flex-direction: column;
+  outline:auto;
+  outline-color: rgb(195, 193, 193);
+  /* background-color: blueviolet; */
+}
+
+.context{
+  margin: 20rpx 20rpx;
+}
+
+
