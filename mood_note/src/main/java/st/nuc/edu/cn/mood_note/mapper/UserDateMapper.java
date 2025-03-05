@@ -11,8 +11,10 @@ public interface UserDateMapper {
     UserDate gDateMood(@Param("uid")String uid, @Param("date")String date);
 
     List<UserDate> gAllDateMood(@Param("uid")String uid, @Param("year")String year, @Param("month")String month);
+
     @Insert("insert into user_date (uid,date,date_mood) values (#{uid},#{date},#{dateMood})")
     boolean insert(UserDate userDate);
+
     @Update("update user_date set date_mood=#{dateMood} where uid = #{uid} and date = #{date}")
     boolean update(UserDate userDate);
 
